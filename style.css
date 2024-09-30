@@ -1,0 +1,318 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+ 
+}
+
+a{
+    color: #007185;
+}
+
+
+.navbar{
+    height: 60px;
+    color:white;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.outline:hover{
+    border: 1.4px solid white;
+    border-radius: 3px;
+}
+
+ /**Box 2(address box)**/
+
+.location{
+    margin-left: 20px;
+}
+.location_icon{
+    display: flex;
+    margin-left: 7px;
+}
+
+.deliver{
+    color: #cccccc;
+    margin-left: 23px;
+    font-size: 0.85rem;
+}
+.India{
+    font-weight: 200;
+    margin-left: 5px;
+    font-size: 1.1rem;
+}
+
+/**search bar**/
+
+.nav-searchbar{
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    width: 843px;
+    background-color: rgb(243, 168, 6);
+    margin-left: 20px;
+   
+}
+
+.search-select{
+    background-color:#F3F3F3;
+    text-align: center; 
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 52px;
+    border: none;
+}
+
+.searchbar{
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.search-icon{
+    width:45px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.nav-searchbar:hover{
+    border: 2px solid orange;
+}
+
+
+
+
+/** PANEL **/
+
+
+.panel{
+    background-color: #222F3D;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    height: 39px;
+    color: #F3F3F3
+}
+
+.panel-ops{
+    width: 75%;
+    font-size: 0.89rem;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+    
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.panel-menu {
+display: flex;
+
+}
+
+
+
+
+/**Main page**/
+
+.hero_image{
+    background-image: url(hero_image.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    display: flex;
+justify-content: center;
+align-items: flex-end;
+    
+}
+
+
+
+
+.hero_image_text{
+    height: 50px;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    
+}
+
+
+.shop_section_dad{
+height: 1200px;
+background-color: #cccccc;
+
+}
+
+
+.shop_section{
+   background-color: #cccccc;
+   display: flex;
+   justify-content: space-evenly;
+   height: 550px;
+   
+}
+
+.box{
+    height: 450px;
+    width: 20%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top:30px ;
+}
+ 
+.box_image{
+background-size: cover;
+height: 350px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+
+}
+
+.box_content{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    
+}
+
+.shop_section p{
+    color: #007185;
+    margin-left:30px ;
+}
+
+.shop_section2 p{
+    color: #007185;
+    margin-left:30px ;
+}
+
+
+.shop_section2{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #cccccc;
+    
+}
+
+
+
+
+/**Books**/
+
+
+.books_dad{
+    background-color: #007185;
+}
+.book_header{
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    top: 20px;
+    background-color: #007185;
+}
+
+.books{
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px; 
+    background-color: #007185;
+   
+}
+
+.book{
+
+    width: 7%;
+    height: 200px;
+    background-size: cover;
+    border-radius:2px ;
+    box-shadow: 10px 10px 5px #222F3D;
+    background-color: #007185;
+    
+}
+
+
+
+.books_genre{
+    height: 100px;
+    background-color: #007185;
+    margin-top: 120px;
+}
+
+
+
+
+
+
+
+/**Footer**/
+
+
+
+
+
+
+
+footer{
+margin-top: 10px;
+
+}
+.footer_panel1{
+height: 80px;
+width: 100%;
+background-color: #37475a;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #F3F3F3;
+}
+
+
+.footer_panel2{
+height: 400px;
+background-color: #222F3D;
+color: white;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+ul a{
+    display: block;
+    color: rgb(180, 177, 177);
+    margin-top: 15px;
+}
+
+ul p{
+    font-weight: 700;
+}
+
+:hover ul a{
+    text-decoration: underline;
+}
